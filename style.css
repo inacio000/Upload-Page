@@ -4,7 +4,8 @@
     box-sizing: border-box;
 }
 
-html, body {
+html,
+body {
     background: #FBFAFF;
     min-height: 100vh;
     font-family: 'Inter', sans-serif;
@@ -17,7 +18,7 @@ html, body {
     flex-direction: column;
     justify-content: center;
     place-content: center;
-    
+
     max-width: 440px;
     width: 90%;
     margin: auto;
@@ -35,7 +36,7 @@ html, body {
 }
 
 .drag-files input {
-    all:unset;
+    all: unset;
     opacity: 0;
     inset: 0;
     position: absolute;
